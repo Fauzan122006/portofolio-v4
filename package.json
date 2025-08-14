@@ -6,6 +6,8 @@
         "dev": "vite"
     },
     "devDependencies": {
+        "@iconify/json": "^2.2.335",
+        "@iconify/tailwind4": "^1.0.6",
         "@tailwindcss/postcss": "^4.1.5",
         "@tailwindcss/vite": "^4.0.0",
         "autoprefixer": "^10.4.21",
