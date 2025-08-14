@@ -49,7 +49,42 @@
             <img src="{{ asset('asset/img/Logo-ellipse-luar.svg') }}" flex class="justify-center items-center mx-auto -mt-72" alt="">
             <img src="{{ asset('asset/img/Ellipse 6.svg') }}" flex class="justify-center items-center mx-auto -mt-72 opacity-50" alt="">
         </div>
-        <div class="project">
+        <div id="project" class="project grid gap-16 justify-center mt-20">
+            <a href="">
+                <div class="flex">
+                <div class="info mr-36">
+                    <h2 class="text-blue-300 font-bold">Featured project</h2>
+                    <h2 class="text-2xl font-bold">Example project</h2>
+                    <div class="absolute">
+                        <p class="text-center mt-5 border border-gray-200 rounded-field p-2 dark:bg-blue-950/30 backdrop-blur-md max-w-96">Here are some of the projects I've worked on recently. Feel free to check them out!</p>
+                        <span class="icon-[icon-park-solid--click] mt-3" style="width: 30px; height: 28px;"></span>
+                        <span class="icon-[icon-park-solid--click] mt-3" style="width: 30px; height: 28px;"></span>
+                    </div>
+                </div>
+                <div class="gambar p-2 bg-blue-950 rounded-field">
+                    <img src="{{ asset('asset/project/ExampleProject1.png') }}" class="w-80" alt="">
+                </div>
+            </div>
+            </a>
+
+            <a href="">
+                <div class="flex">
+                    <div class="gambar p-4 bg-blue-950 rounded-field">
+                        <img src="{{ asset('asset/project/ExampleProject2.png') }}" class="w-80" alt="">
+                    </div>
+                <div class="info ml-36">
+                    <h2 class="text-blue-300 font-bold">Featured project</h2>
+                    <h2 class="text-2xl font-bold">Example project</h2>
+                    <div class="absolute -ml-48">
+                        <p class="text-center mt-5 border border-gray-200 rounded-field p-2 dark:bg-blue-950/30 backdrop-blur-md max-w-96">Here are some of the projects I've worked on recently. Feel free to check them out!</p>
+                        <div class="ml-80">
+                            <span class="icon-[icon-park-solid--click] mt-3" style="width: 30px; height: 28px;"></span>
+                            <span class="icon-[icon-park-solid--click] mt-3" style="width: 30px; height: 28px;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </a>
         </div>
     </div>
 </x-layout>
