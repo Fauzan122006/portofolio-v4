@@ -73,7 +73,7 @@
                         <img src="{{ asset('asset/project/ExampleProject2.png') }}" class="w-80" alt="">
                     </div>
                 <div class="info ml-36">
-                    <h2 class="text-blue-300 font-bold">Featured project</h2>
+                    <h2 class="text-blue-300 font-bold place-self-end">Featured project</h2>
                     <h2 class="text-2xl font-bold">Example project</h2>
                     <div class="absolute -ml-48">
                         <p class="text-center mt-5 border border-gray-200 rounded-field p-2 dark:bg-blue-950/30 backdrop-blur-md max-w-96">Here are some of the projects I've worked on recently. Feel free to check them out!</p>
